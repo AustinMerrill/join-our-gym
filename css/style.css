@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+   
+}
+main {
+    
+    width:100vw;
+}
+.hero-title{
+    color: #7123a0;
+    margin-top: 34px;
+    margin-left: 24px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    
+
+}
+.hero-h2 {
+    color:#77BCB8;
+    margin-left: 24px;
+    font-size: 18px;
+    margin-bottom: 23px;
+}
+.paragraph{
+    color:#ababab;
+    margin-left: 24px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 20px;
+    
+}
+.second-box{
+    background-color:#7123a0;
+    min-height: 218px;
+    padding-bottom: 37px;
+
+}
+.h2Number2{
+    color:#fff;
+    padding-top:27px;
+    margin-bottom: 20px;
+    margin-left: 24px;
+    font-size: 18px;
+
+}
+.number{
+    color:#fff;
+    margin-left: 24px;
+    font-size: 32px;
+    margin-bottom:11px;
+}
+.per-year{
+    color:#fff;
+    opacity: 46%;
+    font-size:16px;
+    margin-bottom:11px;
+}
+.secondP{
+    color:#fff;
+    margin-left:24px;
+    font-size:16px;
+    margin-bottom:15px;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.button{
+    background-color: #77bcb8;
+    width: calc(100% - 48px);
+    height:41px;
+    color:#fff;
+    font-size:16px;
+    text-align: center;
+    border-radius: 5px;
+}
+.last-box{
+    background-color:#8f58b1;
+    /* min-height:100vh; */
+    padding-bottom: 44px;
+    
+}
+.about-us{
+    color:#fff;
+    margin-left:24px;
+    padding-top:30px;
+    margin-bottom: 18px;
+}
+.last-p{
+    color:#fff;
+    width:66%;
+    opacity: 75%;
+    margin-left:24px; 
+}
+@media (min-width: 768px){
+    body{
+        border:solid 1px red;
+        
+    }
+    .flex{
+        display:flex;
+        min-height:50vh;
+    
+        
+    }
+    .hero-box{
+        height: 50vh;
+    }
+    .hero-title{
+        font-size: 48px;
+        font-weight: 400;
+        margin-top:49px;
+        margin-left:79px; 
+        margin-bottom:46px;
+    }
+    .hero-h2{
+        font-size:26px;
+        font-weight:400;
+        margin-left:79px;
+        margin-bottom:16px; 
+    }
+    .paragraph{
+        font-size:20px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        line-height: 2;
+        margin-bottom:67px;
+        margin-left:79px; 
+        width:80%;
+        
+    }
+    .second-box{
+        width:50%;
+    }
+    .jo{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+    }
+    .h2Number2{
+        margin-top:37px;
+        margin-bottom:16px;
+        font-size:30px;
+        font-weight: 400;
+        margin-left:79px;
+    }
+    .number{
+        margin-left:79px;  
+    }
+    .per-year{
+        font-size: 20px;
+        margin-bottom:21px;
+    }
+    .secondP{
+        font-size: 20px;
+        margin-left:79px;
+        margin-bottom:47px;
+    }
+    .button{
+        
+        width: calc(100% - 150px);
+        height:58px;
+        
+        font-size:20px;
+        text-align: center;
+        border-radius: 5px;
+        border:none;
+    }
+    .last-box{
+        width:50%;
+        min-height: 50%;
+    }
+    .about-us{
+        margin-top:30px;
+        margin-bottom:39px;
+        margin-left:79px;
+        font-size: 26px;
+        font-weight: 400;
+        
+    }
+    .last-p{
+        margin-left:79px; 
+        font-size: 20px;;
+    }
+
+}
