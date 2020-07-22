@@ -109,8 +109,6 @@ form {
 }
 @media (min-width: 768px){
     body{
-        border:solid 1px red;
-        
     }
     .flex{
         display:flex;
@@ -132,7 +130,7 @@ form {
         font-size:26px;
         font-weight:400;
         margin-left:79px;
-        margin-bottom:16px; 
+        margin-bottom:35px; 
     }
     .paragraph{
         font-size:20px;
