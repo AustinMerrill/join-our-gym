@@ -108,8 +108,6 @@ form {
     margin-left:24px; 
 }
 @media (min-width: 768px){
-    body{
-    }
     .flex{
         display:flex;
         min-height:50vh;
